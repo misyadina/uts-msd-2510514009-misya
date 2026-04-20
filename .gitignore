@@ -1,0 +1,13 @@
+# MATLAB
+*.asv
+*.slxc
+*.mex*
+
+# VS Code & OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Lain-lain
+__pycache__/
+*.log
