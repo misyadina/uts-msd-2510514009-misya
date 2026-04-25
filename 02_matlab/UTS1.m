@@ -1,3 +1,20 @@
+% =====================================================
+% UTS Matematika Sains Data — Semester Genap 2025/2026
+% Soal 1 — Eksplorasi Awal dan Profil Data Transaksi
+% ---------------------------------------------------
+% Nama : Misya Adina
+% NIM : 2510514009
+% Parameter: N=9, a=0, b=9, K=10, theta0=45, alpha=0.01
+% Tanggal: 2026-04-25
+% =====================================================
+
+clc; clear; close all;
+
+% Parameter personalisasi
+N = 9; a = 0; b = 9; K = 10;
+theta0 = 45; % derajat
+alpha_lr = 0.01;
+
 % data toko
 K = 10; a = 0; b = 9;
 
@@ -9,7 +26,7 @@ end
 disp('Data D:')
 disp(D)
 
-% rata-rata
+% rata-ratag
 n = length(D);
 total = 0;
 for i = 1:n
